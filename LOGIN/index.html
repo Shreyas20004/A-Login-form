@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    
+    <title>My login</title>
+</head>
+<body>
+    <div class="Container">
+        <form action=""method="post">
+            <h2>Lets Register!</h2>
+            <div class="content">
+                <div class="input-box">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Enter your name (last   first   middle)" name="name" required>
+                </div>
+                <div class="input-box">
+                    <label for="username">User Name</label>
+                    <input type="text" placeholder="Enter your Username" name="uname" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">EmailId</label>
+                    <input type="email" placeholder="Enter your email eg:example@xyz.com" name="email" required>
+                </div>
+                <div class="input-box">
+                    <label for="Phone">Phone No.</label>
+                    <input type="tel" placeholder="Enter your contact number" name="phone" required>
+                </div>
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter your Password" name="password" required>
+                </div>
+                <div class="input-box">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" placeholder="Confirm password" name="ConfirmPassword" required>
+                </div>
+                <span class="gender-title">Gender</span>
+                <div class="gender-catagory">
+                    <input type="radio" name="gender" id="male" required >
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" required >
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <div class="alert">
+                <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a> . You may receive SMS notifications from
+                    us and can opt out at any time.
+                </p>
+            </div>
+            <div class="button-container">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
